@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Suite" verbose="2">
+    <test name="Login Test Cases">
+        <classes>
+            <class name="demoProject.loginTestCases.BothCorrect"/>
+            <class name="demoProject.loginTestCases.BothInCorrect"/>
+            <class name="demoProject.loginTestCases.CorrectUserName"/>
+            <class name="demoProject.loginTestCases.CorrectPassword"/>
+        </classes>
+    </test>
+</suite>
+
+
+        <!-- for listeners
+        <listeners>
+        <listener class-name="testNgPractice.ListenersExample"/>
+        </listeners>
+        -->
+
+        <!-- for parallel testing
+        <suite name="All Test Suite" verbose="2" parallel="methods" thread-count="2">-->
+
+        <!-- for passing parameters
+        <parameter name="Name" value="Akilan"> </parameter>-->
+
+        <!--<groups>
+            <run>
+                <include name="Moto"/>
+                <include name="Vivo"/>
+            </run>
+        </groups>-->
+
+        <!--Sample-->
+        <!--<class name="testNgPractice.DependenciesManagement"/>
+                   <class name="testNgPractice.DriveACar"/>
+                   <class name="testNgPractice.SampleTestCase"/>
+                   <class name="testNgPractice.SkipATestCase"/>
+                   <class name="testNgPractice.SuiteExample"/>-->
